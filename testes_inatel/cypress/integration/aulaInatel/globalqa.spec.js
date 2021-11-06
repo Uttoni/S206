@@ -37,6 +37,15 @@ describe('Cenário de teste: Testar as funcionalidade do site globalsqa.com', ()
         cy.get('h1.ng-binding').should('contain.text', userInfo[0]);
         
     })
+
+    it('Cenário de teste: Remover usuario cadastrado e verificar', () => {
+
+        var userInfo = criarUsuario();
+        cy.loginNinjaQa(userInfo[0], userInfo[1]);
+        cy.get('.ng-binding > a').click();
+        cy.loginNinjaQa(userInfo[0], userInfo[1]);
+        cy.get('.ng-binding').should('have.text', 'Username or password is incorrect');
+    })
 })
 
 //FUNÇÕES
