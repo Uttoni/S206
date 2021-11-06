@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 2,
     "failures": -2,
-    "start": "2021-11-06T05:49:56.530Z",
-    "end": "2021-11-06T05:50:16.189Z",
-    "duration": 19659,
+    "start": "2021-11-06T18:14:03.887Z",
+    "end": "2021-11-06T18:14:21.838Z",
+    "duration": 17951,
     "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 50,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "48e43c0f-7751-4e88-9580-330fbb44cc72",
+      "uuid": "5df96a27-394a-4453-8766-06d2cce90d83",
       "title": "",
       "fullFile": "cypress/integration/aulaInatel/globalqa.spec.js",
       "file": "cypress/integration/aulaInatel/globalqa.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a4a888e4-e21d-4409-a40f-dd0e3ccab53a",
+          "uuid": "1e613998-081a-46d7-96f8-0633a3f27366",
           "title": "Cenário de teste: Testar as funcionalidade do site globalsqa.com",
           "fullFile": "",
           "file": "",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "ea268724-73c5-414d-9d73-0d4a93209bcf",
-              "parentUUID": "a4a888e4-e21d-4409-a40f-dd0e3ccab53a",
+              "uuid": "f6affd56-a7f5-4be8-b7b9-b289a7252a3c",
+              "parentUUID": "1e613998-081a-46d7-96f8-0633a3f27366",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "1dd64d7f-15dc-4d5a-a5cd-ccdfcef61c65",
-              "parentUUID": "a4a888e4-e21d-4409-a40f-dd0e3ccab53a",
+              "uuid": "ac9e4513-5893-4bde-af2c-9dcca3ca1763",
+              "parentUUID": "1e613998-081a-46d7-96f8-0633a3f27366",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Cenário de teste: Login com sucesso",
               "fullTitle": "Cenário de teste: Testar as funcionalidade do site globalsqa.com Cenário de teste: Login com sucesso",
               "timedOut": null,
-              "duration": 8568,
+              "duration": 7909,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "var userInfo = criarUsuario();\ncy.visit('https://globalsqa.com/angularJs-protractor/registration-login-example/#/login');\ncy.get('#username').type(userInfo[0]);\ncy.get('#password').type(userInfo[1]);\ncy.get('.btn-primary').click();\ncy.get('h1.ng-binding').should('contain.text', userInfo[0]);",
               "err": {},
-              "uuid": "f860ce4f-7acc-4bda-b76c-1f7179326a5c",
-              "parentUUID": "a4a888e4-e21d-4409-a40f-dd0e3ccab53a",
+              "uuid": "fa172677-600e-48c4-b533-247930f33db1",
+              "parentUUID": "1e613998-081a-46d7-96f8-0633a3f27366",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "Cenário de teste: Remover usuario cadastrado e verificar",
               "fullTitle": "Cenário de teste: Testar as funcionalidade do site globalsqa.com Cenário de teste: Remover usuario cadastrado e verificar",
               "timedOut": null,
-              "duration": 8454,
+              "duration": 7476,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -101,24 +101,24 @@
               "context": null,
               "code": "var userInfo = criarUsuario();\ncy.loginNinjaQa(userInfo[0], userInfo[1]);\ncy.get('.ng-binding > a').click();\ncy.loginNinjaQa(userInfo[0], userInfo[1]);\ncy.get('.ng-binding').should('have.text', 'Username or password is incorrect');",
               "err": {},
-              "uuid": "0d6b330d-1ff0-4096-940c-3b3fbb887782",
-              "parentUUID": "a4a888e4-e21d-4409-a40f-dd0e3ccab53a",
+              "uuid": "53a59e65-9511-458d-9017-6081a95b023c",
+              "parentUUID": "1e613998-081a-46d7-96f8-0633a3f27366",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f860ce4f-7acc-4bda-b76c-1f7179326a5c",
-            "0d6b330d-1ff0-4096-940c-3b3fbb887782"
+            "fa172677-600e-48c4-b533-247930f33db1",
+            "53a59e65-9511-458d-9017-6081a95b023c"
           ],
           "failures": [],
           "pending": [
-            "ea268724-73c5-414d-9d73-0d4a93209bcf",
-            "1dd64d7f-15dc-4d5a-a5cd-ccdfcef61c65"
+            "f6affd56-a7f5-4be8-b7b9-b289a7252a3c",
+            "ac9e4513-5893-4bde-af2c-9dcca3ca1763"
           ],
           "skipped": [],
-          "duration": 17022,
+          "duration": 15385,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

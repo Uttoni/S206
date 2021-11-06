@@ -11,11 +11,11 @@ END=null
 title=Cenário de teste: Testar as funcionalidade do site globalsqa.com Cenário de teste: Registrar um usuário com sucesso
 [CHAPTER]
 TIMEBASE=1/1000
-START=-2018
-END=6607
+START=-1281
+END=6490
 title=Cenário de teste: Testar as funcionalidade do site globalsqa.com Cenário de teste: Login com sucesso
 [CHAPTER]
 TIMEBASE=1/1000
-START=6788
-END=15249
+START=7043
+END=14269
 title=Cenário de teste: Testar as funcionalidade do site globalsqa.com Cenário de teste: Remover usuario cadastrado e verificar
