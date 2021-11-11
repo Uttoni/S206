@@ -10,7 +10,7 @@
     <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
     <script type="text/javascript" src="res/bootstrap.min.js"></script>
     <script type="text/javascript" src="res/karate-report.js"></script>
-    <title>Karate Tags Report</title>  
+    <title>Karate Summary Report</title>  
   </head>
   <body>   
     <div id="root-container">
@@ -27,31 +27,39 @@
     </div>
   </div>
   <div id="nav-type">
-    <div>Tags</div>
+    <div>Features</div>
   </div>         
   <div id="nav-date">
-    <div>2021-11-11 08:57:53 PM</div>
+    <div>2021-11-06 11:01:37 PM</div>
   </div>        
 </div>
 
       </div>
       <div id="content">
         <div class="page-heading alert alert-primary">
-          <a href="karate-summary.html">Summary</a>
+          <a href="karate-tags.html">Tags</a>
         </div>       
-        <table class="tags-table table table-sm ">
+        <table class="features-table table table-sm">
           <thead>
             <tr>
-              <th class="feature-cell">Feature</th>
-              <th classapend="passed">jsonplaceholder</th>
+              <th>Feature</th>
+              <th>Title</th>
+              <th class="num">Passed</th>
+              <th class="num">Failed</th>
+              <th class="num">Scenarios</th>
+              <th class="num">Time (ms)</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="passed">
-              <td class="feature-cell">
-                <a href="aula_inatel.jsonlplaceholder.jsonplaceholder.html">aula_inatel/jsonlplaceholder/jsonplaceholder.feature</a>
+            <tr class="passed">              
+              <td>
+                <a href="aula_inatel.starwars.starwars.html">aula_inatel/starwars/starwars.feature</a>
               </td>
-              <td classapend="passed">X</td>
+              <td>Executar testes funcionais nas APIs do Star Wars (swapi)</td>
+              <td class="num">5</td>
+              <td class="num">0</td>
+              <td class="num">5</td>
+              <td class="num">9663</td>            
             </tr>            
           </tbody>
         </table>
